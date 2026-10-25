@@ -1,0 +1,11 @@
+{
+  "supabaseUrl": "https://drimfgyvyxehqzwxhhxb.supabase.co",
+  "supabaseKey": "sb_publishable_570lBGUBe148-wWbwBbCyw_AwfrKwEm",
+  "google": false,
+  "legal": {
+    "operator": "EcoFin",
+    "email": "",
+    "reviewed": false,
+    "updated": "21 octombrie 2026"
+  }
+}
