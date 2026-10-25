@@ -1,0 +1,9 @@
+// Cloudflare: publică folderul site/ ca site static (fără cod de server).
+// Numele trebuie să fie același cu al proiectului din Cloudflare (Workers & Pages → ecofin).
+{
+  "name": "ecofin",
+  "compatibility_date": "2026-10-01",
+  "assets": {
+    "directory": "./site"
+  }
+}

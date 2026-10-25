@@ -11,11 +11,11 @@ Site de finanțe personale în limba română, cu sume în lei: compararea credi
 | `backend/functions/` | Cele două funcții Supabase: `assistant` (vorbește cu Claude) și `delete-account` (șterge contul titularului). |
 | `sursa/` | Codul din care se construiește site-ul (`src/`, `build.py`). |
 
-## Setările Cloudflare Pages
+## Publicarea pe Cloudflare
 
-- Framework preset: **None**
-- Build command: gol
-- Build output directory: **site**
+Proiectul **ecofin** din Cloudflare (Workers & Pages) e legat de ramura `main`. Fișierul `wrangler.jsonc` îi spune să publice folderul `site/`, așa că orice modificare urcată pe `main` ajunge singură pe site.
+
+Dacă proiectul e făcut ca Cloudflare Pages, setările sunt: Framework preset **None**, Build command gol, Build output directory **site**.
 
 ## Ce nu se pune aici
 
